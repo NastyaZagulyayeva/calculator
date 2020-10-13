@@ -20,18 +20,8 @@ body {
     background-color: rgba(0, 0, 0, .75);
 }
 
-.calculator .output .previous-operand {
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 5px 15px;
-    font-size: 20px;
-    color: #f5f5f5;
-}
-
 .calculator .output .current-operand {
-    height: calc(70% - 20px); 
+    height: 100%; 
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -54,15 +44,4 @@ body {
     border: 1px solid  #87CEFA;
 }
 
-.calculator button.btn-delete {
-    width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.calculator button.btn-equals {
-    width: 100%;
-    grid-column-start: 3;
-    grid-column-end: 5;
-}
 
